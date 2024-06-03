@@ -1,0 +1,20 @@
+{
+  "url_config": {
+    "rate_limit": {
+      "interval_seconds": 10,
+      "max_requests": 2
+    },
+    "urls": [
+      "https://vk.com",
+      "https://ya.ru",
+      "https://google.com",
+      "https://habr.com/",
+      "https://career.habr.com/",
+      "https://cian.ru/"
+    ]
+  },
+  "logging": {
+    "log_service_name": "urlchecker",
+    "log_level": "info"
+  }
+}
